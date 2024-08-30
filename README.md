@@ -1,6 +1,6 @@
 # Praktikum-Sistem-Operasi-1
 
-# INSTALLING LINUX
+# 1. LAPORAN PROSES INSTALASI LINUX
 Nama : M. Jovan Putra Arisandi
 
 NIM : 09011282328026
@@ -109,5 +109,22 @@ Jika penginstalan telah selesai silahkan restart Ubuntunya, setelahnya maka akan
 <img width="640" alt="Screenshot 2024-08-29 141922" src="https://github.com/user-attachments/assets/b5853ba0-b7fa-473f-b5b0-b8520423fd94">
 
 Jika tampilan layar kalian sudah menampilkan seperti pada layar itu berarti penginstalan ubuntu telah berhasil dan selesai, akun kalian siap untuk digunakan
+
+## 2. KENAPA PADA INSTALASI PERLU DIPILIH "/" PADA OPSI MOUNT POINT
+Saat instalasi sistem operasi Linux, mount point "`/`" harus dipilih karena ini adalah direktori root yang menjadi dasar dari seluruh struktur file sistem, tempat semua file dan aplikasi penting dari sistem operasi akan diinstal.
+
+## 3. BERIKAN PENJELASAN TENTANG ext4, ext3, swap, ntfs, fat32,btrfs 
+- **ext4** merupakan sistem file default yang sering digunakan didalam distribusi linux modern dan mendukung file yang lebih besar, peningkatan kinerja, dan fitur seperti extents dan journaling yang membantu dalam pemulihan data.
+
+- **ext3** merupakan versi sebelum dari ext4 dan digunakan secara luas di sistem linux sebelum ext4, ext3 tidak secepat ext4 dan memiliki batasan dalam hal ukuran file dan juga partisi
+
+- **swap** adalah area pada disk yang digunakan untuk memperluas RAM dengan menyediakan RAM sementara ketika saat RAM penuh
+
+- **ntfs** adalah sebuah sistem file yang dikembangkan oleh microsoft dan digunakan pada sistem operasi windows modern
+
+- **fat32** adalah sebuah sistem file yang lebih tua yang sering digunakan pada perangkat penyimpanan seperti flash drive dan kartu sd
+
+- **btrfs** adalah sebuah sistem file yang dikembangkan oleh oracle dan dirancang untuk menjadi sistem file generasi berikutnya dengan fitur-fitur canggih
+
 
 # TERIMA KASIH
